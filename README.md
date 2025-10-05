@@ -55,7 +55,7 @@ Validates if a given application name is on the allowed list.
 
 ```json
 {
-    "message": "App 'diperi-app' validated successfully"
+    "isAppVaild": "true"
 }
 ```
 
@@ -63,7 +63,7 @@ Validates if a given application name is on the allowed list.
 
 ```json
 {
-    "error": "App 'invalid-app' is not a valid app."
+    "isAppVaild": "false"
 }
 ```
 
